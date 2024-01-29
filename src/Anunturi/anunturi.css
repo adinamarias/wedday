@@ -1,0 +1,188 @@
+.div1anunt {
+    height: 140vh;
+    width: 100vw;
+    /* background-image: url('../images/walp3.jpeg'); */
+    background-color: #e0e0e0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    overflow: auto;
+
+}
+
+.contact {
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
+    flex-direction: column;
+    margin-top: 2vh;
+
+}
+
+.titlecontact {
+    width: 100vw;
+    height: 6vh;
+    margin-top: 1vh;
+    justify-content: center;
+    display: flex;
+}
+
+.contetContact1 {
+    width: 100vw;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contentContact2 {
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    margin-top: 6vh;
+    flex-direction: row;
+
+
+}
+
+.developed {
+    width: 100vw;
+    height: 4vh;
+    justify-content: center;
+    display: flex;
+    margin-top: 3vh;
+
+
+}
+
+.contentContact3 {
+    width: 20vw;
+    height: 16vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.contentContact4 {
+    width: 20vw;
+    height: 16vh;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.div2anunt {
+    height: 90vh;
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+
+}
+
+.navbar {
+    height: 8vh;
+    width: 100vw;
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+}
+
+.elementsNav {
+    height: 8vh;
+    width: 70vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+
+}
+
+.elementsNav2 {
+    height: 8vh;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.meniu {
+    height: 90vh;
+    width: 18vw;
+    background-color: black;
+    margin-top: 1vh;
+    border-radius: 2vw;
+    margin-left: 0.3vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    display: flex;
+    animation: slideInFromLeft 0.2s ease-in-out forwards;
+}
+
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        /* Inițial, imaginea este în afara ecranului la stânga */
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.inMeniu {
+    height: 90vh;
+    width: 16vw;
+    margin-top: 1vh;
+}
+
+.inMeniu2 {
+    height: 84vh;
+    width: 16vw;
+    margin-top: 3vh;
+    background-color: white;
+    border-radius: 2vw;
+    display: flex;
+    /* background-image: url('../images/wal8.jpeg'); */
+    background-color: #e0e0e0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.checkBox {
+    height: 60vh;
+    width: 10vw;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+
+}
+
+.anunt {
+    width: 80vw;
+    height: 92vh;
+    margin-left: 2vw;
+    display: grid;
+
+}
+
+.cardAnunt {
+    width: 20vw;
+    height: 37vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 1vh;
+    overflow: auto;
+    background-color: black;
+    border-radius: 1vw;
+}

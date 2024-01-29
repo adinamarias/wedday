@@ -1,0 +1,85 @@
+.parentLog {
+    width: 100vw;
+    height: 100vh;
+    justify-content: row;
+    display: flex;
+    background-image: url('../images/wal8.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.div1and2 {
+    animation: slideInFromRight 1s ease-in-out forwards;
+    justify-content: center;
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-left: 18vh;
+    border-radius: 9vw;
+}
+
+.div1Log {
+    width: 50vw;
+    height: 70vh;
+    background-color: #f5f5f5;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.div2Log {
+    width: 50vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.textLogIn {
+    justify-content: center;
+    width: 40vw;
+    height: 3vh;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.formLog {
+    justify-content: space-around;
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 7vw;
+    flex-direction: column;
+}
+
+.ButtonLog {
+    justify-content: flex-end;
+    width: 40vw;
+    height: 7vh;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.infoLog {
+
+    width: 40vw;
+    height: 7vh;
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+}

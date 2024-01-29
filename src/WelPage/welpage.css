@@ -1,0 +1,162 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+    justify-content: row;
+    display: flex;
+    background-image: url('../images/wal1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.divNunta {
+    height: 100vh;
+    width: 50vw;
+
+}
+
+.div2 {
+    height: 100vh;
+    width: 50vw;
+
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.navbuttons {
+    animation: slideInFromRight 1s ease-in-out forwards;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+    flex-direction: row;
+    width: 40vw;
+    float: right;
+}
+
+.images {
+    animation: slideInFromLeft 2s ease-in-out forwards;
+    padding: 4vh;
+    width: 40vw;
+
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        /* Inițial, imaginea este în afara ecranului la stânga */
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbuttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbuttons button {
+        margin-bottom: 10px;
+    }
+
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbuttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbuttons button {
+        margin-bottom: 8px;
+    }
+
+    .image {
+        width: 100px;
+
+    }
+}
+
+.welText {
+    animation: slideInFromRight 1s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 40vh;
+    float: right;
+    flex-direction: column;
+}
+
+.slide-down {
+    margin-top: 3vh;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideDown 2s ease forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-down2 {
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideDown2 3s ease forwards;
+}
+
+@keyframes slideDown2 {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-down3 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideDown3 4s ease forwards;
+}
+
+@keyframes slideDown3 {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
